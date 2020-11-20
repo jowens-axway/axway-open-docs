@@ -25,7 +25,7 @@ API Portal is available as a software installation or a virtualized deployment i
 * Build and run docker as non-root user.
 * This is release 1 of the production ready docker container.
 
-  * From release 1 onwards the container will be upgradable.
+  * From release 1 onwards the container will be upgradable. 
   * No upgrade is supported from any previous docker containers of the API Portal.
 
     ![](/Images/docbook/images/release_notes/docker-logo.png)
