@@ -18,9 +18,44 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ## New features and enhancements
 
-### Easy upgrade from 7.5.5 and 7.6.2 to 7.7 November
+### Production Ready Docker Container - Phase 1
 
-With API Portal 7.5.5 and 7.6.2 reaching end of support in November 2020, we are looking at ways to help customers make the jump to the latest 7.7 update.​ The `apiportal_cumulative_upgrade.sh` is a cumulative script that you can use to upgrade an environment from 7.5.5 or 7.6.2 directly to the latest 7.7 update​. For more information, see [Upgrade API Portal using the cumulative upgrade script](/docs/apim_installation/apiportal_install/upgrade_automatic/#upgrade-api-portal-using-the-cumulative-upgrade-script).
+* Security review passed.
+* CentOS8 supported​.
+* Build and run docker as non-root user.
+* This is Release 1 of the production ready docker container​.
+
+  * From release 1 onwards the container will be upgradable​.
+  * No upgrade is supported from any previous docker containers of the API Portal.
+
+### Red Hat Enterprise 8 Support
+
+* Official support added for RHEL 8 for the standalone (non-docker) API Portal.
+* Supported [platform matrix](https://docs.axway.com/bundle/Axway_Products_SupportedPlatforms_allOS_en/resource/Axway_Products_SupportedPlatforms_allOS_en.pdf) updated to include RHEL8.
+
+### Security
+
+
+
+* Virus scanning of uploaded files via the Portal interface.
+
+### Upgrade Script Updates
+
+* In July 2020, we released a "cumulative" upgrade script, `apiportal_cumulative_upgrade.sh `to help customers transition from 7.5.5 / 7.6 up to 7.7 July 2020​ update.
+* This script has been updated to upgrade customers to the 7.7 November 2020 update inline with the end of support for the 7.5.x and 7.6.x product lines​ in November 2020.
+* For more information, see [Upgrade API Portal using the cumulative upgrade script](/docs/apim_installation/apiportal_install/upgrade_automatic/#upgrade-api-portal-using-the-cumulative-upgrade-script).
+
+### Better User Experience
+
+* Sort API catalog by Newest/Oldest APIs​
+
+  ![](/Images/docbook/images/release_notes/sort-by-newest.png)
+
+<!---->
+
+* Configuration to show/hide APIs in the catalog by status
+
+  ![](/Images/docbook/images/release_notes/show-hide-by-status.png)
 
 ## Limitations of this update
 
@@ -60,19 +95,19 @@ This version of API Portal includes:
 
 ### Fixed security vulnerabilities
 
-| Internal ID | Case ID | CVE Identifier | Description  |
-| ----------- | ------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IAP-3180    |         |                | **Issue**: PII (Personally identifiable information) appearing in log files. **Resolution**: PII such as user name is replaced with associated GUID in log files.                                                                                                                                                                                   |
-| IAP-3179    |         |                | **Issue**: Insufficient logging for successful logins, access control failures, failed input validation attempts. **Resolution**: Now each log entry includes the necessary information that would help in a detailed investigation of the timeline when an event has happened.                                                                     |
-| IAP-3579    | 1195741 |                | **Issue**: XSS was possible on TryIt page. **Resolution**: The \`apiId\` query param is now sanitized before outputted.                                                                                                                                                                                                                             |
-| IAP-3175    |         |                | **Issue**: When SSO is configured, log information coming from untrusted sources is not sanitized in any way, making it possible for an attacker to inject new lines in the logs. **Resolution**: The data now is sanitized.                                                                                                                        |
+| Internal ID | Case ID | CVE Identifier | Description                                                                                                                                                                                                                                                                                                    |
+| ----------- | ------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IAP-3180    |         |                | **Issue**: PII (Personally identifiable information) appearing in log files. **Resolution**: PII such as user name is replaced with associated GUID in log files.                                                                                                                                              |
+| IAP-3179    |         |                | **Issue**: Insufficient logging for successful logins, access control failures, failed input validation attempts. **Resolution**: Now each log entry includes the necessary information that would help in a detailed investigation of the timeline when an event has happened.                                |
+| IAP-3579    | 1195741 |                | **Issue**: XSS was possible on TryIt page. **Resolution**: The \`apiId\` query param is now sanitized before outputted.                                                                                                                                                                                        |
+| IAP-3175    |         |                | **Issue**: When SSO is configured, log information coming from untrusted sources is not sanitized in any way, making it possible for an attacker to inject new lines in the logs. **Resolution**: The data now is sanitized.                                                                                   |
 | IAP-3652    | 1195741 |                | **Issue**: HTTP Host header can be controlled by an attacker. **Resolution**: Documentation was update whith information on how to prevent this. For more information, see [Prevent host header attack](/docs/apim_installation/apiportal_install/secure_harden_portal/index.html#prevent-host-header-attack). |
-| IAP-3178    |         |                | **Issue**: Passwords containing leading or trailing spaces were trimmed. **Resolution**: Leading or trailing spaces are considered as legitimate characters in password.      |
+| IAP-3178    |         |                | **Issue**: Passwords containing leading or trailing spaces were trimmed. **Resolution**: Leading or trailing spaces are considered as legitimate characters in password.                                                                                                                                       |
 
 ### Other fixed issues
 
-| Internal ID | Case ID | Description    |
-| ----------- | ------- | ----------------------------------- |
+| Internal ID | Case ID | Description                                                                                                                                                                             |
+| ----------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IAP-3559    | 1190447 | **Issue**: Generated authentications do not appear when Applications page is disabled. **Resolution**: Generated authentications are now displayed regardless Applications page status. |
 | IAP-3564    | 1190447 | **Issue**: 'Create Application' button remains on Try-It page even when it is disabled in JAI. **Resolution**: JAI config option is taken into account.                                 |
 | IAP-3730    | 1207734 | **Issue**: SQL query that is supposed to run only on upgrade, was also executed on installation. **Resolution**: The query is now executed only on upgrade.                             |
