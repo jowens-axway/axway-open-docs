@@ -45,10 +45,12 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ### User Experience Improvements
 
-* Sort API catalog by Newest/Oldest APIs​ in the API Catalog
+* Sort API catalog by Newest/Oldest APIs​ in the API Catalog.
 
   ![](/Images/docbook/images/release_notes/sort-by-newest.png)
-* Configuration setting in the Joomla Admin interface to show/hide APIs in the catalog by status
+* Configuration setting in the Joomla Admin interface to show/hide APIs in the catalog by status.
+
+  ![](/Images/docbook/images/release_notes/show-hide-by-status.png)
 
 ## Limitations of this update
 
