@@ -24,6 +24,7 @@ API Portal is available as a software installation or a virtualized deployment i
 * CentOS8 supported.
 * Build and run docker as non-root user.
 * This is release 1 of the production ready docker container.
+
   * From release 1 onwards the container will be upgradable.
   * No upgrade is supported from any previous docker containers of the API Portal.
 
@@ -31,14 +32,13 @@ API Portal is available as a software installation or a virtualized deployment i
 
 * Official support added for RHEL 8 for the standalone (non-docker) API Portal.
 * Supported [platform matrix](https://docs.axway.com/bundle/Axway_Products_SupportedPlatforms_allOS_en/resource/Axway_Products_SupportedPlatforms_allOS_en.pdf) updated to include RHEL8.
-
   ![](/Images/docbook/images/release_notes/red-hat-logo.png)
 
 ### Security
 
 * Virus scanning of uploaded files via the Portal interface.
 
-### Upgrade Script Updates
+### Cumulative Upgrade Script
 
 * In July 2020, we released a "cumulative" upgrade script, `apiportal_cumulative_upgrade.sh`to help customers transition from 7.5.5 / 7.6 up to 7.7 July 2020​ update.
 * This script has been updated to upgrade customers to the 7.7 November 2020 update inline with the end of support for the 7.5.x and 7.6.x product lines​ in November 2020.
