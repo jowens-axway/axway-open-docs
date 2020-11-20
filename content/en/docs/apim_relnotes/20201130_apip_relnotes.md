@@ -33,6 +33,8 @@ API Portal is available as a software installation or a virtualized deployment i
 * Official support added for RHEL 8 for the standalone (non-docker) API Portal.
 * Supported [platform matrix](https://docs.axway.com/bundle/Axway_Products_SupportedPlatforms_allOS_en/resource/Axway_Products_SupportedPlatforms_allOS_en.pdf) updated to include RHEL8.
 
+  ![](/Images/docbook/images/release_notes/red-hat-logo.png)
+
 ### Security
 
 * Virus scanning of uploaded files via the Portal interface.
