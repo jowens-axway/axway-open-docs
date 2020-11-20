@@ -28,6 +28,8 @@ API Portal is available as a software installation or a virtualized deployment i
   * From release 1 onwards the container will be upgradable.
   * No upgrade is supported from any previous docker containers of the API Portal.
 
+    ![](/Images/docbook/images/release_notes/docker-logo.png)
+
 ### Red Hat Enterprise 8 Support
 
 * Official support added for RHEL 8 for the standalone (non-docker) API Portal.
