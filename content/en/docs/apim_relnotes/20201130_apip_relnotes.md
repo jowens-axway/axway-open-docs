@@ -20,13 +20,13 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ### Production Ready Docker Container - Phase 1
 
-* Security review passed.
-* CentOS8 supported​.
+* Internal security review completed.
+* CentOS8 supported.
 * Build and run docker as non-root user.
-* This is Release 1 of the production ready docker container​.
+* This is release 1 of the production ready docker container.
 
-  * From release 1 onwards the container will be upgradable​.
-  * No upgrade is supported from any previous docker containers of the API Portal.
+  * From release 1 onwards the container will be upgradable.
+  * No upgrade is supported from any previous docker containers of the API Portal.
 
 ### Red Hat Enterprise 8 Support
 
@@ -35,27 +35,18 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ### Security
 
-
-
 * Virus scanning of uploaded files via the Portal interface.
 
 ### Upgrade Script Updates
 
-* In July 2020, we released a "cumulative" upgrade script, `apiportal_cumulative_upgrade.sh `to help customers transition from 7.5.5 / 7.6 up to 7.7 July 2020​ update.
+* In July 2020, we released a "cumulative" upgrade script, `apiportal_cumulative_upgrade.sh`to help customers transition from 7.5.5 / 7.6 up to 7.7 July 2020​ update.
 * This script has been updated to upgrade customers to the 7.7 November 2020 update inline with the end of support for the 7.5.x and 7.6.x product lines​ in November 2020.
 * For more information, see [Upgrade API Portal using the cumulative upgrade script](/docs/apim_installation/apiportal_install/upgrade_automatic/#upgrade-api-portal-using-the-cumulative-upgrade-script).
 
-### Better User Experience
+### User Experience Improvements
 
-* Sort API catalog by Newest/Oldest APIs​
-
-  ![](/Images/docbook/images/release_notes/sort-by-newest.png)
-
-<!---->
-
-* Configuration to show/hide APIs in the catalog by status
-
-  ![](/Images/docbook/images/release_notes/show-hide-by-status.png)
+* Sort API catalog by Newest/Oldest APIs​ in the API Catalog
+* Configuration setting in the Joomla Admin interface to show/hide APIs in the catalog by status
 
 ## Limitations of this update
 
