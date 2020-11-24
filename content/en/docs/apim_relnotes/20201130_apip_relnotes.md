@@ -94,7 +94,7 @@ This version of API Portal includes:
 
 ### Fixed security vulnerabilities
 
-| Internal ID | Case ID | CVE Identifier | Description                                                                                                                                                                                                                                                                                                    |
+| Internal ID | Case ID | CVE Identifier | Description     |
 | ----------- | ------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IAP-3180    |         |                | **Issue**: PII (Personally identifiable information) appearing in log files. **Resolution**: PII such as user name is replaced with associated GUID in log files.                                                                                                                                              |
 | IAP-3179    |         |                | **Issue**: Insufficient logging for successful logins, access control failures, failed input validation attempts. **Resolution**: Now each log entry includes the necessary information that would help in a detailed investigation of the timeline when an event has happened.                                |
