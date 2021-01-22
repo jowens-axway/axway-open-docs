@@ -33,9 +33,9 @@ API Portal is available as a software installation or a virtualized deployment i
 * Improved readability of all logs redirected to stdout.
 * Added support for the anti-virus service running on a remote machine, previously it had to be running on the same server as API Portal.
 
-### UI Modernization improvements
+### UI modernization improvements
 
-* New 2 column layout available for API details view
+* New 2 column layout available for API details view.
 
 ![](/Images/docbook/images/release_notes/dual-pane-layout-jan21.png)
 
@@ -45,7 +45,7 @@ API Portal is available as a software installation or a virtualized deployment i
 
 
 
-* Swagger UI layout configuration available from Joomla Admin interface -> Menus -> API Catalog
+* Swagger UI layout configuration available from Joomla Admin interface -> Menus -> API Catalog.
 
 ![](/Images/docbook/images/release_notes/dual-pane-layout-config-jan21.png)
 
@@ -54,6 +54,10 @@ API Portal is available as a software installation or a virtualized deployment i
 ![](/Images/docbook/images/release_notes/hide-try-it-for-specific-tags.png)
 
 
+
+* User account fields (Name, Login name, Password, Email) are now read only in the Joomla Admin interface as this data is managed from API Manager or an external IDP.
+* Custom properties are now displayed in Public mode.
+* A consistent loading icon (spinner) is now rendered across the API details, Applications and Usage tabs.
 
 ## Limitations of this update
 
