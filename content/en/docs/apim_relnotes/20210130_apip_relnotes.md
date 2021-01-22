@@ -26,7 +26,7 @@ API Portal is available as a software installation or a virtualized deployment i
 * Simpler language file upload capability
 
   * To upload language files previously you had to connect to the API Portal server, download the English translation files, translate them, rename them correctly and upload them to the correct directory on the server. 
-  * To simplify this, we have added an upload capability to the Joomla Admin interface under Components-> API Portal->Additional Settings menu where there's a new section called "Upload language files”.
+  * To simplify this, we have added an upload capability to the Joomla Admin interface under Components -> API Portal -> Additional Settings menu where there's a new section called "Upload language files”.
 
 ### Security improvements
 
@@ -36,6 +36,20 @@ API Portal is available as a software installation or a virtualized deployment i
 ### UI Modernization improvements
 
 * New 2 column layout available for API details view
+
+![](/Images/docbook/images/release_notes/dual-pane-layout-jan21.png)
+
+
+
+
+
+
+
+* Swagger UI layout configuration available from Joomla Admin interface -> Menus -> API Catalog
+
+  ![](/Images/docbook/images/release_notes/dual-pane-layout-config-jan21.png)
+
+
 
 
 
