@@ -47,9 +47,11 @@ API Portal is available as a software installation or a virtualized deployment i
 
 * Swagger UI layout configuration available from Joomla Admin interface -> Menus -> API Catalog
 
-  ![](/Images/docbook/images/release_notes/dual-pane-layout-config-jan21.png)
+![](/Images/docbook/images/release_notes/dual-pane-layout-config-jan21.png)
 
+* New configuration to hide the "Try it" button for API's with specific tags e.g. “Coming soon“. Wildcards such as ? * are supported.
 
+![](/Images/docbook/images/release_notes/hide-try-it-for-specific-tags.png)
 
 
 
