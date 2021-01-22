@@ -33,6 +33,12 @@ API Portal is available as a software installation or a virtualized deployment i
 * Improved readability of all logs redirected to stdout.
 * Added support for the anti-virus service running on a remote machine, previously it had to be running on the same server as API Portal.
 
+### UI Modernization improvements
+
+* New 2 column layout available for API details view
+
+
+
 ## Limitations of this update
 
 This update has the following limitations:
