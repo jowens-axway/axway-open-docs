@@ -28,6 +28,11 @@ API Portal is available as a software installation or a virtualized deployment i
   * To upload language files previously you had to connect to the API Portal server, download the English translation files, translate them, rename them correctly and upload them to the correct directory on the server. 
   * To simplify this, we have added an upload capability to the Joomla Admin interface under Components-> API Portal->Additional Settings menu where there's a new section called "Upload language files”.
 
+### Security improvements
+
+* Improved readability of all logs redirected to stdout.
+* Added support for the anti-virus service running on a remote machine, previously it had to be running on the same server as API Portal.
+
 ## Limitations of this update
 
 This update has the following limitations:
