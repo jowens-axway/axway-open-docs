@@ -21,43 +21,34 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ### Docker container improvements
 
-* The January 2021 update now ships with a sample docker-compose.yml script which once configured for your environment, enables an easier start up of API Portal, MariaDB and Redis containers.
-* Build your own API Portal docker container using the same build scripts that Axway use internally.
-* Simpler language file upload capability
+This update includes a sample docker-compose.yml script, which once configured for your environment, enables an easier start up of API Portal, MariaDB, and Redis containers. Now, you can build your own API Portal docker container using the same build scripts that Axway use internally.
 
-  * To upload language files previously you had to connect to the API Portal server, download the English translation files, translate them, rename them correctly and upload them to the correct directory on the server. 
-  * To simplify this, we have added an upload capability to the Joomla Admin interface under Components -> API Portal -> Additional Settings menu where there's a new section called "Upload language files”.
+### Simplified language file upload
+
+Previously, to upload language files you had to connect to the API Portal server, download the English translation files, translate them, rename them correctly, and upload them to the correct directory on the server. To simplify this process, we have added an upload capability to the Joomla! Admin Interface (JAI). For more information, see [Add a translated UI string file](/docs/apim_administration/apiportal_admin/localize_language/#add-a-translated-ui-string-file).
 
 ### Security improvements
 
 * Improved readability of all logs redirected to stdout.
-* Added support for the anti-virus service (ClamAV) running on a remote machine, previously it had to be running on the same server as API Portal.
+* Added support for the anti-virus service (ClamAV) running on a remote machine. Previously, it had to be running on the same server as API Portal.
 
 ### UI modernization improvements
 
-* New 2 column layout available for API details view.
+* New two-column layout available for API details view.
 
-![](/Images/docbook/images/release_notes/dual-pane-layout-jan21.png)
+  ![Two-column layout](/Images/docbook/images/release_notes/dual-pane-layout-jan21.png)
 
+* Swagger UI layout configuration available from [API Catalog settings](/docs/apim_administration/apiportal_admin/customize_apicatalog_overview/).
 
+  ![API Catalog settings](/Images/docbook/images/release_notes/dual-pane-layout-config-jan21.png)
 
+* New configuration to hide the **Try-it** button for APIs with specific tags, for example, "Coming soon". Wildcards such as `?` and `*` are supported.
 
+  ![Hide Try-it](/Images/docbook/images/release_notes/hide-try-it-for-specific-tags.png)
 
-
-
-* Swagger UI layout configuration available from Joomla Admin interface -> Menus -> API Catalog.
-
-![](/Images/docbook/images/release_notes/dual-pane-layout-config-jan21.png)
-
-* New configuration to hide the "Try it" button for API's with specific tags e.g. “Coming soon“. Wildcards such as ? * are supported.
-
-![](/Images/docbook/images/release_notes/hide-try-it-for-specific-tags.png)
-
-
-
-* User account fields (Name, Login name, Password, Email) are now read only in the Joomla Admin interface as this data is managed from API Manager or an external IDP.
+* User account fields (Name, Login name, Password, Email) are now read-only in JAI, as this data is managed from API Manager or an external IDP.
 * Custom properties are now displayed in Public mode.
-* A consistent loading icon (spinner) is now rendered across the API details, Applications and Usage tabs.
+* A consistent loading icon (spinner) is now rendered across the API details, Applications, and Usage tabs.
 
 ## Limitations of this update
 
