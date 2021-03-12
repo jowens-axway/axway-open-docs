@@ -38,6 +38,7 @@ API Portal is available as a software installation or a virtualized deployment i
 * New Axway icons, color palettes and typography incorporated.
 * The name of the relevant API Manager instance is now displayed on the API catalog (grid and list view layouts) and in the API details page. 
 * A new notification has been added to alert the organization administrator on login to review applications that are pending approval.
+* Labels and values for custom properties are now translatable.
 
 ## Limitations of this update
 
