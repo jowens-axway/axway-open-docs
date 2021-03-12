@@ -19,14 +19,10 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ## New features and enhancements
 
-### placeholder 1
-
-placeholder text
-
-For more information, see:
-
-* [some reference 1](/docs/placeholder)
-* [some reference 2](/docs/placeholder)
+### Sample Helm Chart for Axway Managed Cloud (Internal release only)
+* The sample helm chart, once configured for the Axway Managed Cloud Azure environment will allow easier installation of API Portal
+* It is currently intended for use by the Axway Managed Cloud team in an Azure environment only
+* In a future update, this sample will be genericised and made available to external customers
 
 ### placeholder 2
 
