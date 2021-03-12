@@ -31,16 +31,13 @@ API Portal is available as a software installation or a virtualized deployment i
 * Now this is simpler to manage as the parameters can be specified in a config file using the --optionfile parameter, similar to API gateway.
 * A demonstration video is available [here](https://www.youtube.com/watch?v=HqQ77Cj2s5E&list=PLSlCpG9zsECpo8-JMZ2Cx4REDyUvpwy9v&index=22).
 
+### Further Enhancements
 
-
-  ### placeholder 2
-
-placeholder text
-
-For more information, see:
-
-* [some reference 1](/docs/placeholder)
-* [some reference 2](/docs/placeholder)
+* New module allowing easy integration with Intercom to enable chat support on API Portal.
+* Microsoft Edge browser is now supported.
+* New Axway icons, colour palettes and typography incorporated.
+* The name of the relevant API Manager instance is now displayed on the API catalog (grid and list view layouts) and in the API details page. 
+* A new notification has been added to alert the organisation administrator on login to review applications that are pending approval.
 
 ## Limitations of this update
 
@@ -55,7 +52,7 @@ This update has the following limitations:
 
 <!-- It is important, especially when upgrading from an earlier version, to be aware of the following changes in the behavior or operation of the product in this update.. -->
 
-There are no major changes in this update.
+* Internet Explorer 11 and earlier versions are no longer supported. Edge is recommended. 
 
 ## Deprecated features
 
