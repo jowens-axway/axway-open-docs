@@ -30,6 +30,7 @@ API Portal is available as a software installation or a virtualized deployment i
 * Unattended mode uses a total of 24 parameters, all of which must be specified on the command line.
 * Now this is simpler to manage as the parameters can be specified in a config file using the --optionfile parameter, similar to API gateway.
 * A demonstration video is available [here](https://www.youtube.com/watch?v=HqQ77Cj2s5E&list=PLSlCpG9zsECpo8-JMZ2Cx4REDyUvpwy9v&index=23).
+* For more information, see [here](https://developmar21--axway-open-docs.netlify.app/docs/apim_installation/apiportal_install/install_unattended/).
 
 ### Further Enhancements
 
