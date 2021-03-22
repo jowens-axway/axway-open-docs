@@ -19,12 +19,6 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ## New features and enhancements
 
-### Sample Helm chart for Axway Managed Cloud (Internal release only)
-
-* The sample helm chart, once configured for the Axway Managed Cloud Azure environment will allow easier installation of API Portal in this environment.
-* It is currently intended for use by the Axway Managed Cloud team in an Azure environment only.
-* In a future update, this sample will be genericized and made available to external customers.
-
 ### Unattended mode enhanced to use a configuration file for parameters
 
 * Unattended mode uses a total of 24 parameters, all of which must be specified on the command line.
