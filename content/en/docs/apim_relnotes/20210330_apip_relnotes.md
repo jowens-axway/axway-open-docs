@@ -21,17 +21,16 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ### Unattended mode enhanced to use a configuration file for parameters
 
-* Unattended mode uses a total of 24 parameters, all of which must be specified on the command line.
-* Now this is simpler to manage as the parameters can be specified in a config file using the --optionfile parameter, similar to API gateway.
-* A demonstration video is available [here](https://www.youtube.com/watch?v=HqQ77Cj2s5E&list=PLSlCpG9zsECpo8-JMZ2Cx4REDyUvpwy9v&index=23).
-* For more information, see [here](https://developmar21--axway-open-docs.netlify.app/docs/apim_installation/apiportal_install/install_unattended/).
+API Portal unattended mode can use up to 24 parameters, all of which must be specified on the command line. From this update, this was made easier. You can specify the parameters in a configuration file by using the `--optionfile` parameter with API Portal `install` and `uninstall` scripts. For more information, see [Unattended installation](/docs/apim_installation/apiportal_install/install_unattended/).
+
+You can also watch [How to use a configuration file for simpler installations (unattended mode)](https://youtu.be/HqQ77Cj2s5E) demo video on Axway API Management YouTube chanel.
 
 ### Further Enhancements
 
 * New module allowing easy integration with Intercom to enable chat support on API Portal.
 * Microsoft Edge browser is now supported.
-* New Axway icons, color palettes and typography incorporated.
-* The name of the relevant API Manager instance is now displayed on the API catalog (grid and list view layouts) and in the API details page. 
+* New Axway icons, color palettes, and typography incorporated.
+* The name of the relevant API Manager instance is now displayed on the **API catalog** (on Grid and List view layouts) and in the **API details** page.
 * A new notification has been added to alert the organization administrator on login to review applications that are pending approval.
 * Labels and values for custom properties are now translatable.
 
@@ -48,7 +47,7 @@ This update has the following limitations:
 
 <!-- It is important, especially when upgrading from an earlier version, to be aware of the following changes in the behavior or operation of the product in this update.. -->
 
-* Internet Explorer 11 and earlier versions are no longer supported. Edge is recommended. 
+* Internet Explorer 11 and earlier versions are no longer supported. Microsoft Edge is recommended.
 
 ## Deprecated features
 
