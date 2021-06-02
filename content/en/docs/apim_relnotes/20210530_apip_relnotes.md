@@ -23,7 +23,8 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ## New features and enhancements
 
-In API Portal May 2021 update we are not introducing new functionalities. The focus in this updade was to work on fixes of defects.
+There are no new feature enhancements in this update. It is a maintainence update consisting of defect fixes. 
+For a full list of fixed issues, see the Fixed issues section below.
 
 ## Limitations of this update
 
